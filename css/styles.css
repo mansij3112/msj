@@ -1,0 +1,207 @@
+
+
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+  background-color: #fde2e2;
+}
+
+.student{
+  font-family: monospace;
+  font-size : 2.5rem;
+  margin : 0 auto 35px auto;
+  color: #c060a1;
+  text-decoration: overline;
+  font-weight : bold;
+}
+
+h1{
+  margin: 50px auto 30px auto;
+  font-family: 'Sacramento', cursive;
+  font-size : 9em;
+  color: #900c3f;
+  font-weight: bolder;
+}
+
+.fbpic{
+  margin : 85px auto 40px auto;
+}
+
+.intro-p{
+  margin : 10px auto 70px auto;
+  width : 500px;
+  line-height: 1.7;
+}
+
+hr {
+  background-color: #fde2e2;
+  border-style: dotted none none none;
+  height: 0;
+  width: 6%;
+  border-color: #feceab;
+  border-width: 11px;
+  margin : 90px auto 130px auto;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color : #e36387;
+}
+
+h3{
+  font-family: sans-serif;
+  color : #ff9595;
+  font-size : 28.5px;
+}
+
+p{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size : 20px;
+  width : 75%;
+  margin : auto;
+  padding-bottom: 14px;
+  line-height: 150%;
+  color: #393e46
+}
+
+.topcontainer{
+position: relative;
+  padding-top : 100px;
+  background-color: #f1d1d1;
+}
+
+.topcloud{
+
+  position : absolute;
+  right : 400px;
+  top : 50px;
+}
+
+
+.bottomcloud{
+  position : absolute;
+left : 400px;
+bottom : 300px;
+}
+
+.fbpic{
+  border-radius: 100%;
+}
+
+.coding{
+  border-radius : 100%;
+}
+
+.designing{
+  border-radius: 100%;
+}
+
+
+
+.skill-row{
+  text-align: left;
+  width : 50%;
+  margin : 100px auto 100px auto;
+  line-height: 2.5;
+}
+
+.coding{
+  width : 25%;
+  height : 25%;
+  margin-right : 20px;
+  float : left;
+}
+
+.designing{
+  width : 25%;
+  height : 25%;
+  float : right ;
+  margin-left: 20px;
+}
+
+#skills_p{
+  text-align : left;
+  margin : 0;
+  width : 900px;
+}
+
+#design-para{
+  text-align : left;
+  margin : 0;
+}
+
+.bottom-h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 70px auto 70px auto;
+}
+
+.bottom-p{
+  width : 40%;
+  line-height: 1.5;
+  margin: 0 auto 50px auto;
+}
+
+.btn {
+  background: #ff9595;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius : 20px;
+
+}
+
+.btn:hover {
+  background: #e36387;
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-container{
+  position: relative;
+padding-top : 50px;
+  background-color: #e7305b;
+  top: 130px;
+  margin-top: 0px;
+  border-top-width: 20px;
+  padding-bottom: 40px;
+}
+
+a{
+  color: #921c44;
+  text-decoration: none;
+  font-family : 'Montserrat', sans-serif;
+  margin: 30px 20px 0px 20px;
+  font-size: 1.1em;
+}
+
+
+/* visited link */
+a:visited {
+  color: #900c3f;
+}
+
+a:hover {
+  color: #fde2e2;
+}
+
+/* selected link */
+a:active {
+  color: #726a95;
+}
+
+.copyright{
+  color: #faeee7;
+  font-size: 1em;
+  margin : 40px auto 20px auto;
+}
